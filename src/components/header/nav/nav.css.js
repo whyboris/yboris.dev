@@ -15,4 +15,10 @@ export const Container = styled.nav`
       }
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    ul {
+      margin-top: 40px;
+    }
+  }
 `;

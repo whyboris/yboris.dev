@@ -4,29 +4,39 @@ import Layout from 'components/layout';
 import Box from 'components/box';
 import Title from 'components/title';
 import Gallery from 'components/gallery';
-import IOExample from 'components/io-example';
-import Modal from 'containers/modal';
 import { graphql } from 'gatsby';
 
 const Index = ({ data }) => (
   <Layout>
     <Box>
       <Title as="h2" size="large">
-        {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
+        Software
       </Title>
-      <Modal>
-        <video
-          src="https://i.imgur.com/gzFqNSW.mp4"
-          playsInline
-          loop
-          autoPlay
-          muted
-        />
-      </Modal>
+      <p className="description">
+        Download for Windows, Mac, and Linux.
+      </p>
     </Box>
-    <Gallery items={data.homeJson.gallery} />
-    <div style={{ height: '50vh' }} />
-    <IOExample />
+    <Gallery items={data.homeJson.software} />
+
+    <Box>
+      <Title as="h2" size="large">
+        Data Visualization
+      </Title>
+      <p className="description">
+        Interactive data visualization.
+      </p>
+    </Box>
+    <Gallery items={data.homeJson.dataviz} />
+
+    <Box>
+      <Title as="h2" size="large">
+        Developer Tools
+      </Title>
+      <p className="description">
+        Various tools other developers can use.
+      </p>
+    </Box>
+    <Gallery items={data.homeJson.devTools} />
   </Layout>
 );
 
@@ -46,9 +56,34 @@ export const query = graphql`
           rawMarkdownBody
         }
       }
-      gallery {
+      software {
         title
         copy
+        link
+        image {
+          childImageSharp {
+            fluid(maxHeight: 500, quality: 90) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
+      }
+      dataviz {
+        title
+        copy
+        link
+        image {
+          childImageSharp {
+            fluid(maxHeight: 500, quality: 90) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
+      }
+      devTools {
+        title
+        copy
+        link
         image {
           childImageSharp {
             fluid(maxHeight: 500, quality: 90) {
