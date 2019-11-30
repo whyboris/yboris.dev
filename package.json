@@ -3,6 +3,7 @@
   "license": "MIT",
   "author": "Fabian Schultz <desk@fabianschultz.com>",
   "scripts": {
+    "start": "gatsby develop",
     "develop": "gatsby develop",
     "serve": "gatsby serve",
     "ssr": "npm run build && npm run serve",

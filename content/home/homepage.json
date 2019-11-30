@@ -1,19 +1,103 @@
 {
   "title": "Home",
   "content": "intro.md",
-  "gallery": [{
-    "title": "React Context",
-    "copy": "For global styles.",
-    "image": "../images/gallery/react-context.jpg"
+  "software": [{
+    "title": "Video Hub App",
+    "copy": "The fastest way to browse and manage videos on your computer",
+    "image": "../images/gallery/vha.jpg",
+    "link": "https://videohubapp.com/"
   },
   {
-    "title": "Page Transitions",
-    "copy": "Component-based for easy usage.",
-    "image": "../images/gallery/page-transitions.jpg"
+    "title": "Simplest File Renamer",
+    "copy": "The simplest way to batch rename files on your computer",
+    "image": "../images/gallery/renamer.jpg",
+    "link": "https://github.com/whyboris/Simplest-File-Renamer"
+  }],
+  "dataviz": [{
+    "title": "Income-Inequality.info",
+    "copy": "Compare income inequality between and within countries. 3rd place winner in the United Nations Development Programme data visualization challenge.",
+    "image": "../images/gallery/datavis.jpg",
+    "link": "https://income-inequality.info"
+  }],
+  "devTools": [{
+    "title": "JSON-i18n-Editor",
+    "copy": "Let your team translate your app/website through a web interace",
+    "image": "../images/gallery/i18n.jpg",
+    "link": "https://github.com/whyboris/JSON-i18n-Editor"
   },
   {
-    "title": "Intersection Observer",
-    "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/intersection-observer.jpg"
+    "title": "Keras Hist Graph",
+    "copy": "1-line of code to show the graph of your Keras training session",
+    "image": "../images/gallery/keras.jpg",
+    "link": "https://github.com/whyboris/keras-hist-graph"
+  },
+  {
+    "title": "Karma Helpful Reporter",
+    "copy": "A customizable report after you run your Karma tests",
+    "image": "../images/gallery/karma.jpg",
+    "link": "https://github.com/whyboris/karma-helpful-reporter"
+  }],
+  "archive": [{
+    "title": "Golden Key Festival",
+    "copy": "Created a website and backend for client to handle user registration, management, and administration. Developed custom PDF generation, OCR solution, and email notification pipeline. Designed and implemented a simplified workflow for the business to manage all data with searchable DataTables, automated data backups and Excel export. ",
+    "image": "../images/archive/golden.png"
+  },
+  {
+    "title": "Gravity Wars",
+    "copy": "Sole developer of Gravity Wars, a PC game built in Visual C++. Created Flash version of the game. In 2015 created an iOS version of the game (unfinished).",
+    "image": "../images/archive/game.png",
+    "link": "http://gravitywars.yboris.com/"
+  },
+  {
+    "title": "WordPres",
+    "copy": "Worked with numerous clients setting up, customizing, and migrating WordPress installations. Created a theme that was downloaded over 40,000 times.",
+    "image": "../images/archive/wordpress.png",
+    "link": "https://wordpress.org/themes/yboris/"
+  },
+  {
+    "title": "UI Design",
+    "copy": "Created skins for various applications, including LiteStep themes; they have been downloaded thousands of times.",
+    "image": "../images/archive/userint.png",
+    "link": "https://www.deviantart.com/yboris/gallery"
+  },
+  {
+    "title": "Poster Design",
+    "copy": "Poster design for a variety of events tied to the Effective Altruism movement. Custom chart design & design for clients.",
+    "image": "../images/archive/photoshop.png"
+  }],
+  "talks": [{
+    "title": "O’Reilly Strata Data Science",
+    "copy": "Conference talk about machine learning architecture ",
+    "image": "../images/talks/oreilly.jpg",
+    "link": "https://conferences.oreilly.com/strata/strata-ca-2019/public/schedule/speaker/332583",
+    "time": "March 2019"
+  },
+  {
+    "title": "Data Science Salon",
+    "copy": "Conference talk about machine learning architecture",
+    "image": "../images/talks/dss.jpg",
+    "link": "https://www.youtube.com/watch?v=RB3LqDKyiq0",
+    "time": "September 2018"
+  },
+  {
+    "title": "Creative Coding NYC",
+    "copy": "Demystifying Machine Learning and Starting Today ",
+    "image": "../images/talks/creative.jpg",
+    "link": "https://www.youtube.com/watch?v=TGWSyiyq8l4",
+    "time": "July 2018"
+  },
+  {
+    "title": "Deep Learning NYC",
+    "copy": "Zero to Hero in Machine Learning with Keras",
+    "image": "../images/talks/mlnyc.jpg",
+    "link": "https://www.youtube.com/watch?v=5qCDzaOUCWA",
+    "time": "June 2018"
+  },
+  {
+    "title": "Angular NYC",
+    "copy": "Creating Video Hub App with Angular and Electron",
+    "image": "../images/talks/angularnyc.jpg",
+    "link": "https://www.youtube.com/watch?v=Gv7IfU78vxw",
+    "time": "February 2018"
   }]
 }

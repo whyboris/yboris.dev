@@ -69,6 +69,7 @@ export default createGlobalStyle`
 
   a {
     color: ${accent};
+    text-decoration: none;
   }
 
   pre {
@@ -91,4 +92,59 @@ export default createGlobalStyle`
   p {
     margin-bottom: 2rem;
   }
+
+  body {
+    background: #eeeeee;
+  }
+
+  .layout-container {
+    background: white;
+    padding: 0 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    min-height: 100vh;
+    padding-bottom: 100px;
+  }
+
+  .description {
+    margin: 16px 0 0 !important;
+  }
+
+  .gatsby-image-wrapper {
+    border: 1px solid #666666;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+
+  @media only screen and (max-width: 1260px) {
+    .layout-container {
+      margin-left: 20px;
+      margin-right: 20px;
+      width: calc(100% - 40px);
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .layout-container {
+      margin-left: 10px;
+      margin-right: 10px;
+      width: calc(100% - 20px);
+    }
+  }
+
+  @media only screen and (max-width: 376px) {
+    .layout-container {
+      padding: 0;
+      margin-left: 0;
+      margin-right: 0;
+      border: 0;
+      width: calc(100%);
+
+    }
+  }
+
 `;

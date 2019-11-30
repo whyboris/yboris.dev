@@ -15,4 +15,13 @@ export const Container = styled.header`
       color: inherit;
     }
   }
+
+  .site-title {
+    position: absolute;
+    top: 32px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    display: block;
+  }
 `;
