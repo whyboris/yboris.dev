@@ -7,9 +7,7 @@ import Layout from 'components/layout';
 import Box from 'components/box';
 import Title from 'components/title';
 
-import { Stupid } from './renamer.css';
-
-// const renamerData = data.homeJson.renamer[0];
+import { Stupid } from '../components/renamer.css';
 
 const Index = ({ data }) => (
 
@@ -55,8 +53,6 @@ const Index = ({ data }) => (
       </p>
 
     </Box>
-
-    { console.log(data) }
 
   </Layout>
 );
