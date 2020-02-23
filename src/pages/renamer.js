@@ -9,7 +9,11 @@ import Title from 'components/title';
 
 import { Stupid } from '../components/renamer.css';
 
-const Index = ({ data }) => (
+const Index = ({ data }) => {
+
+  const renamerData = data.homeJson.renamer[0];
+
+  return(
 
   <Layout>
     <Box>
@@ -18,7 +22,7 @@ const Index = ({ data }) => (
       </Title>
 
       <Stupid>
-        <Img fluid={ data.homeJson.renamer[0].image.childImageSharp.fluid} alt={data.homeJson.renamer[0].title} />
+        <Img fluid={ renamerData.image.childImageSharp.fluid} alt={renamerData.title} />
       </Stupid>
 
       <p className="description" style={{ lineHeight: 30 + 'px' }}>
@@ -26,7 +30,7 @@ const Index = ({ data }) => (
       </p>
 
       <p className="description">
-        See the code on <a href={ data.homeJson.renamer[0].link }>GitHub</a>
+        See the code on <a href={ renamerData.link }>GitHub</a>
       </p>
 
       <br />
@@ -37,25 +41,27 @@ const Index = ({ data }) => (
       </Title>
 
       <p className="description">
-        <a href={ data.homeJson.renamer[0].downloads.win }>Windows</a> <span style={{ color: '#AAAAAA' }}>(47mb)</span>
+        <a href={ renamerData.downloads.win }>Windows</a> <span style={{ color: '#AAAAAA' }}>(47mb)</span>
       </p>
 
       <p className="description">
-        <a href={ data.homeJson.renamer[0].downloads.winPortable }>Windows Portable</a> <span style={{ color: '#AAAAAA' }}>(43mb)</span>
+        <a href={ renamerData.downloads.winPortable }>Windows Portable</a> <span style={{ color: '#AAAAAA' }}>(43mb)</span>
       </p>
 
       <p className="description">
-        <a href={ data.homeJson.renamer[0].downloads.mac }>Mac</a> <span style={{ color: '#AAAAAA' }}>(62mb)</span>
+        <a href={ renamerData.downloads.mac }>Mac</a> <span style={{ color: '#AAAAAA' }}>(62mb)</span>
       </p>
 
       <p className="description">
-        <a href={ data.homeJson.renamer[0].downloads.linux }>Linux</a> <span style={{ color: '#AAAAAA' }}>(72mb)</span>
+        <a href={ renamerData.downloads.linux }>Linux</a> <span style={{ color: '#AAAAAA' }}>(72mb)</span>
       </p>
 
     </Box>
 
   </Layout>
-);
+)
+
+};
 
 Index.propTypes = {
   data: PropTypes.object.isRequired,
