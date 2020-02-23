@@ -16,7 +16,10 @@ const Item = ({ title, copy, image, link, time }) => (
         )}
       </div>
       <div className="lol-two">
-        <Title>{title}<span className="date">{ time }</span></Title>
+        <Title>
+          {title}
+          <span className="date">{time}</span>
+        </Title>
         <Copy>{copy}</Copy>
       </div>
     </div>

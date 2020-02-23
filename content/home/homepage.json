@@ -1,6 +1,18 @@
 {
   "title": "Home",
   "content": "intro.md",
+  "renamer": [{
+    "title": "Simplest File Renamer",
+    "copy": "The simplest way to batch rename files on your computer",
+    "image": "../images/gallery/simplest-file-renamer.jpg",
+    "link": "https://github.com/whyboris/Simplest-File-Renamer",
+    "downloads": {
+      "win": "./downloads/Simplest File Renamer Setup 1.0.0.exe",
+      "winPortable": "./downloads/Simplest File Renamer 1.0.0.exe",
+      "mac": "./downloads/Simplest File Renamer-1.0.0.dmg",
+      "linux": "./downloads/Simplest File Renamer-1.0.0.AppImage"
+    }
+  }],
   "software": [{
     "title": "Video Hub App",
     "copy": "The fastest way to browse and manage videos on your computer",
@@ -11,7 +23,7 @@
     "title": "Simplest File Renamer",
     "copy": "The simplest way to batch rename files on your computer",
     "image": "../images/gallery/renamer.jpg",
-    "link": "https://github.com/whyboris/Simplest-File-Renamer"
+    "link": "./renamer"
   }],
   "dataviz": [{
     "title": "Income-Inequality.info",

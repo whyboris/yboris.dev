@@ -32,7 +32,9 @@ const LayoutWithQuery = props => (
         }
       }
     `}
-    render={data => <Layout className="layout-container" data={data} {...props} />}
+    render={data => (
+      <Layout className="layout-container" data={data} {...props} />
+    )}
   />
 );
 

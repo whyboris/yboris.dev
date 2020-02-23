@@ -1,11 +1,14 @@
 import styled from 'styled-components';
 import MEDIA from 'helpers/mediaTemplates';
 
-export const Title = styled.span`
-  display: block;
-  font-size: 2rem;
-  font-weight: 500;
-  margin: 3rem 2rem 1.5rem;
+export const Stupid = styled.div`
+  border: 0;
+  box-shadow: none;
+
+  * {
+    box-shadow: none;
+    border: 0;
+  }
 `;
 
 export const Copy = styled.p`
