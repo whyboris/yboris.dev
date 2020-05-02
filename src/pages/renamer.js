@@ -6,8 +6,6 @@ import PropTypes from 'prop-types';
 import Layout from 'components/layout';
 import Box from 'components/box';
 
-import { Stupid } from '../components/renamer.css';
-
 const Index = ({ data }) => {
 
   const renamerData = data.homeJson.renamer[0];
@@ -20,9 +18,9 @@ const Index = ({ data }) => {
         Simplest File Renamer
       </h2>
 
-      <Stupid>
+      <div className="renamer-image">
         <Img fluid={ renamerData.image.childImageSharp.fluid} alt={renamerData.title} />
-      </Stupid>
+      </div>
 
       <p className="description" style={{ lineHeight: 30 + 'px' }}>
         Rename your files directly or with your favorite text editor, making use of all your 1337 keyboard shortcuts

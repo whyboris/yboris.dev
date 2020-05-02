@@ -1,14 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Item from 'components/rows/item';
-import { Container } from './rows.css';
 
 const Rows = ({ items }) => (
-  <Container>
+  <div className="row-container">
     {items.map((item, i) => (
       <Item {...item} key={i} />
     ))}
-  </Container>
+  </div>
 );
 
 Rows.propTypes = {

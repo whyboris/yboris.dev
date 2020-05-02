@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { Container } from './nav.css';
 
 const Nav = () => (
-  <Container>
+  <div className="nav">
     <ul>
       <li>
         <Link to="/talks">Talks</Link>
@@ -18,7 +17,7 @@ const Nav = () => (
         <a href="https://github.com/whyboris">GitHub</a>
       </li>
     </ul>
-  </Container>
+  </div>
 );
 
 export default Nav;

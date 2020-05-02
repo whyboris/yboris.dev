@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
-import { Title, Copy } from './item.css';
 
 const Item = ({ title, copy, image, link, time }) => (
   <>
@@ -16,11 +15,11 @@ const Item = ({ title, copy, image, link, time }) => (
         )}
       </div>
       <div className="lol-two">
-        <Title>
+        <span className="item-title">
           {title}
           <span className="date">{time}</span>
-        </Title>
-        <Copy>{copy}</Copy>
+        </span>
+        <p className="item-description">{copy}</p>
       </div>
     </div>
   </>

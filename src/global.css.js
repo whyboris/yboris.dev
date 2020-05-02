@@ -167,4 +167,145 @@ export default createGlobalStyle`
     margin-bottom: 20px;
   }
 
+  .renamer-image {
+    border: 0;
+    box-shadow: none;
+
+    * {
+      box-shadow: none;
+      border: 0;
+    }
+  }
+
+  .box-div {
+    padding: 2rem 4rem;
+  }
+
+  .gallery-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4rem;
+    padding: 0 4rem;
+    margin: 2rem 0;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .gallery-div {
+      display: block;
+    }
+
+    .item-description {
+      margin-bottom: 4rem !important;
+    }
+  }
+
+  .item-title {
+    display: block;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 2rem 2rem 1rem;
+
+    span {
+      color: #666666;
+      margin-left: 10px;
+      font-size: 12px;
+    }
+  }
+
+  .item-description {
+    color: #757575;
+    margin: 0 2rem 2rem;
+    line-height: 28px;
+  }
+
+  .nav {
+    ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+
+      li {
+        text-transform: uppercase;
+        font-size: 1.3rem;
+
+        & + li {
+          margin-left: 2rem;
+        }
+      }
+    }
+
+    @media only screen and (max-width: 768px) {
+      ul {
+        margin-top: 40px;
+      }
+    }
+  }
+
+  .row-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 4rem;
+    padding: 0 4rem;
+    margin: 2rem 0;
+
+    .gatsby-image-wrapper {
+      max-width: 400px;
+      min-width: 300px;
+      display: inline-block;
+    }
+
+    .row-container {
+      display: flex;
+    }
+
+    .lol-one {
+      width: 350px;
+    }
+
+    .lol-two {
+      flex: 1;
+
+      span {
+        line-height: 30px;
+      }
+    }
+
+    @media only screen and (max-width: 768px) {
+      display: block;
+
+      .gatsby-image-wrapper {
+        min-width: calc(100vw - 120px);
+      }
+      .row-container {
+        flex-direction: column !important;
+      }
+    }
+  }
+
+  .header-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+
+    a {
+      color: #757575;
+      transition: color 0.2s ease;
+      text-decoration: none;
+
+      &:hover {
+        color: inherit;
+      }
+    }
+
+    .site-title {
+      position: absolute;
+      top: 32px;
+    }
+
+    @media only screen and (max-width: 768px) {
+      display: block;
+    }
+  }
+
 `;
