@@ -5,7 +5,6 @@ import PropTypes from 'prop-types';
 
 import Layout from 'components/layout';
 import Box from 'components/box';
-import Title from 'components/title';
 
 import { Stupid } from '../components/renamer.css';
 
@@ -17,9 +16,9 @@ const Index = ({ data }) => {
 
   <Layout>
     <Box>
-      <Title as="h2" size="large">
+      <h2>
         Simplest File Renamer
-      </Title>
+      </h2>
 
       <Stupid>
         <Img fluid={ renamerData.image.childImageSharp.fluid} alt={renamerData.title} />
@@ -36,9 +35,9 @@ const Index = ({ data }) => {
       <br />
       <br />
 
-      <Title as="h3" size="large">
+      <h3>
         Download
-      </Title>
+      </h3>
 
       <p className="description">
         <a href={ renamerData.downloads.win }>Windows</a> <span style={{ color: '#AAAAAA' }}>(47mb)</span>

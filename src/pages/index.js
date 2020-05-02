@@ -2,16 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Layout from 'components/layout';
 import Box from 'components/box';
-import Title from 'components/title';
 import Gallery from 'components/gallery';
 import { graphql } from 'gatsby';
 
 const Index = ({ data }) => (
   <Layout>
     <Box>
-      <Title as="h2" size="large">
+      <h2>
         Software
-      </Title>
+      </h2>
       <p className="description">
         Download for Windows, Mac, and Linux.
       </p>
@@ -19,9 +18,9 @@ const Index = ({ data }) => (
     <Gallery items={data.homeJson.software} />
 
     <Box>
-      <Title as="h2" size="large">
+      <h2>
         Data Visualization
-      </Title>
+      </h2>
       <p className="description">
         Interactive data visualization.
       </p>
@@ -29,9 +28,9 @@ const Index = ({ data }) => (
     <Gallery items={data.homeJson.dataviz} />
 
     <Box>
-      <Title as="h2" size="large">
+      <h2>
         Developer Tools
-      </Title>
+      </h2>
       <p className="description">
         Various tools other developers can use.
       </p>

@@ -2,16 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Layout from 'components/layout';
 import Box from 'components/box';
-import Title from 'components/title';
 import Rows from 'components/rows';
 import { graphql } from 'gatsby';
 
 const Index = ({ data }) => (
   <Layout>
     <Box>
-      <Title as="h2" size="large">
+      <h2>
         Talks
-      </Title>
+      </h2>
       <p className="description">
         Tech talks I have given
       </p>
