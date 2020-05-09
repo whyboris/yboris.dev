@@ -5,7 +5,7 @@ import Img from 'gatsby-image';
 const Item = ({ title, copy, image, link, time }) => (
   <>
     <div className="row-container">
-      <div className="lol-one">
+      <div>
         {link ? (
           <a href={link}>
             <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
@@ -14,7 +14,7 @@ const Item = ({ title, copy, image, link, time }) => (
           <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
         )}
       </div>
-      <div className="lol-two">
+      <div>
         <span className="item-title">
           {title}
           <span className="date">{time}</span>

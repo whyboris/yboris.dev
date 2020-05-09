@@ -138,7 +138,7 @@ export default createGlobalStyle`
 
   @media only screen and (max-width: 376px) {
     .layout-container {
-      padding: 0;
+      padding: 0 0 50px 0;
       margin-left: 0;
       margin-right: 0;
       border: 0;
@@ -258,26 +258,23 @@ export default createGlobalStyle`
       display: flex;
     }
 
-    .lol-one {
-      width: 350px;
-    }
-
-    .lol-two {
-      flex: 1;
-
-      span {
-        line-height: 30px;
-      }
-    }
-
     @media only screen and (max-width: 768px) {
       display: block;
 
       .gatsby-image-wrapper {
-        min-width: calc(100vw - 120px);
+        min-width: calc(100vw - 150px);
       }
+
       .row-container {
         flex-direction: column !important;
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    @media only screen and (max-width: 376px) {
+      .gatsby-image-wrapper {
+        min-width: calc(100vw - 100px);
       }
     }
   }
