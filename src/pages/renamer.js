@@ -15,7 +15,7 @@ const Index = ({ data }) => {
   <Layout>
     <Box>
       <h2>
-        Simplest File Renamer
+        {renamerData.title}
       </h2>
 
       <div className="renamer-image">
@@ -38,19 +38,23 @@ const Index = ({ data }) => {
       </h3>
 
       <p className="description">
-        <a href={ renamerData.downloads.win }>Windows</a> <span style={{ color: '#AAAAAA' }}>(47mb)</span>
+        <a href={ renamerData.downloads.win }>Windows</a>
+        <span style={{ color: '#AAAAAA' }}>(47mb)</span>
       </p>
 
       <p className="description">
-        <a href={ renamerData.downloads.winPortable }>Windows Portable</a> <span style={{ color: '#AAAAAA' }}>(43mb)</span>
+        <a href={ renamerData.downloads.winPortable }>Windows Portable</a>
+        <span style={{ color: '#AAAAAA' }}>(43mb)</span>
       </p>
 
       <p className="description">
-        <a href={ renamerData.downloads.mac }>Mac</a> <span style={{ color: '#AAAAAA' }}>(62mb)</span>
+        <a href={ renamerData.downloads.mac }>Mac</a>
+        <span style={{ color: '#AAAAAA' }}>(62mb)</span>
       </p>
 
       <p className="description">
-        <a href={ renamerData.downloads.linux }>Linux</a> <span style={{ color: '#AAAAAA' }}>(72mb)</span>
+        <a href={ renamerData.downloads.linux }>Linux</a>
+        <span style={{ color: '#AAAAAA' }}>(72mb)</span>
       </p>
 
     </Box>

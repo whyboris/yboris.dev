@@ -13,6 +13,15 @@
       "linux":       "https://github.com/whyboris/Simplest-File-Renamer/releases/download/v1.0.0/Simplest.File.Renamer-1.0.0.AppImage"
     }
   }],
+  "gravitywars": [{
+    "title": "Gravity Wars",
+    "image": "../images/gallery/gravity-wars.jpg",
+    "link": "https://github.com/whyboris/Gravity-Wars",
+    "downloads": {
+      "executable": "./gravitywars0.991.exe",
+      "sourceCode": "./gravitywars0.988.zip"
+    }
+  }],
   "software": [{
     "title": "Video Hub App",
     "copy": "The fastest way to browse and manage videos on your computer",
@@ -58,7 +67,7 @@
     "title": "Gravity Wars",
     "copy": "Sole developer of Gravity Wars, a PC game built in Visual C++. Created Flash version of the game. In 2015 created an iOS version of the game (unfinished).",
     "image": "../images/archive/game.png",
-    "link": "http://gravitywars.yboris.com/"
+    "link": "/gravitywars"
   },
   {
     "title": "WordPres",
