@@ -52,6 +52,12 @@
       "title": "Keras Hist Graph"
     },
     {
+      "copy": "CLI to visualize the call graph of your TypeScript files",
+      "image": "../images/gallery/typescript-call-graph.png",
+      "link": "https://github.com/whyboris/TypeScript-Call-Graph",
+      "title": "TypeScript Call Graph"
+    },
+    {
       "copy": "A customizable report after you run your Karma tests",
       "image": "../images/gallery/karma.jpg",
       "link": "https://github.com/whyboris/karma-helpful-reporter",
