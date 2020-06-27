@@ -1,124 +1,138 @@
 {
-  "title": "Home",
+  "archive": [
+    {
+      "copy": "Created a website and backend for client to handle user registration, management, and administration. Developed custom PDF generation, OCR solution, and email notification pipeline. Designed and implemented a simplified workflow for the business to manage all data with searchable DataTables, automated data backups and Excel export. ",
+      "image": "../images/archive/golden.png",
+      "title": "Golden Key Festival"
+    },
+    {
+      "copy": "Sole developer of Gravity Wars, a PC game built in Visual C++. Created Flash version of the game. In 2015 created an iOS version of the game (unfinished).",
+      "image": "../images/archive/game.png",
+      "link": "/gravitywars",
+      "title": "Gravity Wars"
+    },
+    {
+      "copy": "Worked with numerous clients setting up, customizing, and migrating WordPress installations. Created a theme that was downloaded over 40,000 times.",
+      "image": "../images/archive/wordpress.png",
+      "link": "https://wordpress.org/themes/yboris/",
+      "title": "WordPres"
+    },
+    {
+      "copy": "Created skins for various applications, including LiteStep themes; they have been downloaded thousands of times.",
+      "image": "../images/archive/userint.png",
+      "link": "https://www.deviantart.com/yboris/gallery",
+      "title": "UI Design"
+    },
+    {
+      "copy": "Poster design for a variety of events tied to the Effective Altruism movement. Custom chart design & design for clients.",
+      "image": "../images/archive/photoshop.png",
+      "title": "Poster Design"
+    }
+  ],
   "content": "intro.md",
-  "renamer": [{
-    "title": "Simplest File Renamer",
-    "copy": "The simplest way to batch rename files on your computer",
-    "image": "../images/gallery/simplest-file-renamer.jpg",
-    "link": "https://github.com/whyboris/Simplest-File-Renamer",
-    "downloads": {
-      "win":         "https://github.com/whyboris/Simplest-File-Renamer/releases/download/v1.0.0/Simplest.File.Renamer.Setup.1.0.0.exe",
-      "winPortable": "https://github.com/whyboris/Simplest-File-Renamer/releases/download/v1.0.0/Simplest.File.Renamer.1.0.0.exe",
-      "mac":         "https://github.com/whyboris/Simplest-File-Renamer/releases/download/v1.0.0/Simplest.File.Renamer-1.0.0.dmg",
-      "linux":       "https://github.com/whyboris/Simplest-File-Renamer/releases/download/v1.0.0/Simplest.File.Renamer-1.0.0.AppImage"
+  "dataviz": [
+    {
+      "copy": "Compare income inequality between and within countries. 3rd place winner in the United Nations Development Programme data visualization challenge.",
+      "image": "../images/gallery/datavis.jpg",
+      "link": "https://income-inequality.info",
+      "title": "Income-Inequality.info"
     }
-  }],
-  "gravitywars": [{
-    "title": "Gravity Wars",
-    "image": "../images/gallery/gravity-wars.jpg",
-    "link": "https://github.com/whyboris/Gravity-Wars",
-    "downloads": {
-      "executable": "./gravitywars0.991.exe",
-      "sourceCode": "./gravitywars0.988.zip"
+  ],
+  "devTools": [
+    {
+      "copy": "Let your team translate your app/website through a web interace",
+      "image": "../images/gallery/i18n.jpg",
+      "link": "https://github.com/whyboris/JSON-i18n-Editor",
+      "title": "JSON-i18n-Editor"
+    },
+    {
+      "copy": "1-line of code to show the graph of your Keras training session",
+      "image": "../images/gallery/keras.jpg",
+      "link": "https://github.com/whyboris/keras-hist-graph",
+      "title": "Keras Hist Graph"
+    },
+    {
+      "copy": "A customizable report after you run your Karma tests",
+      "image": "../images/gallery/karma.jpg",
+      "link": "https://github.com/whyboris/karma-helpful-reporter",
+      "title": "Karma Helpful Reporter"
     }
-  }],
-  "software": [{
-    "title": "Video Hub App",
-    "copy": "The fastest way to browse and manage videos on your computer",
-    "image": "../images/gallery/vha.jpg",
-    "link": "https://videohubapp.com/"
-  },
-  {
-    "title": "Simplest File Renamer",
-    "copy": "The simplest way to batch rename files on your computer",
-    "image": "../images/gallery/renamer.jpg",
-    "link": "./renamer"
-  }],
-  "dataviz": [{
-    "title": "Income-Inequality.info",
-    "copy": "Compare income inequality between and within countries. 3rd place winner in the United Nations Development Programme data visualization challenge.",
-    "image": "../images/gallery/datavis.jpg",
-    "link": "https://income-inequality.info"
-  }],
-  "devTools": [{
-    "title": "JSON-i18n-Editor",
-    "copy": "Let your team translate your app/website through a web interace",
-    "image": "../images/gallery/i18n.jpg",
-    "link": "https://github.com/whyboris/JSON-i18n-Editor"
-  },
-  {
-    "title": "Keras Hist Graph",
-    "copy": "1-line of code to show the graph of your Keras training session",
-    "image": "../images/gallery/keras.jpg",
-    "link": "https://github.com/whyboris/keras-hist-graph"
-  },
-  {
-    "title": "Karma Helpful Reporter",
-    "copy": "A customizable report after you run your Karma tests",
-    "image": "../images/gallery/karma.jpg",
-    "link": "https://github.com/whyboris/karma-helpful-reporter"
-  }],
-  "archive": [{
-    "title": "Golden Key Festival",
-    "copy": "Created a website and backend for client to handle user registration, management, and administration. Developed custom PDF generation, OCR solution, and email notification pipeline. Designed and implemented a simplified workflow for the business to manage all data with searchable DataTables, automated data backups and Excel export. ",
-    "image": "../images/archive/golden.png"
-  },
-  {
-    "title": "Gravity Wars",
-    "copy": "Sole developer of Gravity Wars, a PC game built in Visual C++. Created Flash version of the game. In 2015 created an iOS version of the game (unfinished).",
-    "image": "../images/archive/game.png",
-    "link": "/gravitywars"
-  },
-  {
-    "title": "WordPres",
-    "copy": "Worked with numerous clients setting up, customizing, and migrating WordPress installations. Created a theme that was downloaded over 40,000 times.",
-    "image": "../images/archive/wordpress.png",
-    "link": "https://wordpress.org/themes/yboris/"
-  },
-  {
-    "title": "UI Design",
-    "copy": "Created skins for various applications, including LiteStep themes; they have been downloaded thousands of times.",
-    "image": "../images/archive/userint.png",
-    "link": "https://www.deviantart.com/yboris/gallery"
-  },
-  {
-    "title": "Poster Design",
-    "copy": "Poster design for a variety of events tied to the Effective Altruism movement. Custom chart design & design for clients.",
-    "image": "../images/archive/photoshop.png"
-  }],
-  "talks": [{
-    "title": "O’Reilly Strata Data Science",
-    "copy": "Conference talk about machine learning architecture ",
-    "image": "../images/talks/oreilly.jpg",
-    "link": "https://conferences.oreilly.com/strata/strata-ca-2019/public/schedule/speaker/332583",
-    "time": "March 2019"
-  },
-  {
-    "title": "Data Science Salon",
-    "copy": "Conference talk about machine learning architecture",
-    "image": "../images/talks/dss.jpg",
-    "link": "https://www.youtube.com/watch?v=RB3LqDKyiq0",
-    "time": "September 2018"
-  },
-  {
-    "title": "Creative Coding NYC",
-    "copy": "Demystifying Machine Learning and Starting Today ",
-    "image": "../images/talks/creative.jpg",
-    "link": "https://www.youtube.com/watch?v=TGWSyiyq8l4",
-    "time": "July 2018"
-  },
-  {
-    "title": "Deep Learning NYC",
-    "copy": "Zero to Hero in Machine Learning with Keras",
-    "image": "../images/talks/mlnyc.jpg",
-    "link": "https://www.youtube.com/watch?v=5qCDzaOUCWA",
-    "time": "June 2018"
-  },
-  {
-    "title": "Angular NYC",
-    "copy": "Creating Video Hub App with Angular and Electron",
-    "image": "../images/talks/angularnyc.jpg",
-    "link": "https://www.youtube.com/watch?v=Gv7IfU78vxw",
-    "time": "February 2018"
-  }]
+  ],
+  "gravitywars": [
+    {
+      "downloads": {
+        "executable": "./gravitywars0.991.exe",
+        "sourceCode": "./gravitywars0.988.zip"
+      },
+      "image": "../images/gallery/gravity-wars.jpg",
+      "link": "https://github.com/whyboris/Gravity-Wars",
+      "title": "Gravity Wars"
+    }
+  ],
+  "renamer": [
+    {
+      "copy": "The simplest way to batch rename files on your computer",
+      "downloads": {
+        "linux": "https://github.com/whyboris/Simplest-File-Renamer/releases/download/v1.0.0/Simplest.File.Renamer-1.0.0.AppImage",
+        "mac": "https://github.com/whyboris/Simplest-File-Renamer/releases/download/v1.0.0/Simplest.File.Renamer-1.0.0.dmg",
+        "win": "https://github.com/whyboris/Simplest-File-Renamer/releases/download/v1.0.0/Simplest.File.Renamer.Setup.1.0.0.exe",
+        "winPortable": "https://github.com/whyboris/Simplest-File-Renamer/releases/download/v1.0.0/Simplest.File.Renamer.1.0.0.exe"
+      },
+      "image": "../images/gallery/simplest-file-renamer.jpg",
+      "link": "https://github.com/whyboris/Simplest-File-Renamer",
+      "title": "Simplest File Renamer"
+    }
+  ],
+  "software": [
+    {
+      "copy": "The fastest way to browse and manage videos on your computer",
+      "image": "../images/gallery/vha.jpg",
+      "link": "https://videohubapp.com/",
+      "title": "Video Hub App"
+    },
+    {
+      "copy": "The simplest way to batch rename files on your computer",
+      "image": "../images/gallery/renamer.jpg",
+      "link": "./renamer",
+      "title": "Simplest File Renamer"
+    }
+  ],
+  "talks": [
+    {
+      "copy": "Conference talk about machine learning architecture ",
+      "image": "../images/talks/oreilly.jpg",
+      "link": "https://conferences.oreilly.com/strata/strata-ca-2019/public/schedule/speaker/332583",
+      "time": "March 2019",
+      "title": "O’Reilly Strata Data Science"
+    },
+    {
+      "copy": "Conference talk about machine learning architecture",
+      "image": "../images/talks/dss.jpg",
+      "link": "https://www.youtube.com/watch?v=RB3LqDKyiq0",
+      "time": "September 2018",
+      "title": "Data Science Salon"
+    },
+    {
+      "copy": "Demystifying Machine Learning and Starting Today ",
+      "image": "../images/talks/creative.jpg",
+      "link": "https://www.youtube.com/watch?v=TGWSyiyq8l4",
+      "time": "July 2018",
+      "title": "Creative Coding NYC"
+    },
+    {
+      "copy": "Zero to Hero in Machine Learning with Keras",
+      "image": "../images/talks/mlnyc.jpg",
+      "link": "https://www.youtube.com/watch?v=5qCDzaOUCWA",
+      "time": "June 2018",
+      "title": "Deep Learning NYC"
+    },
+    {
+      "copy": "Creating Video Hub App with Angular and Electron",
+      "image": "../images/talks/angularnyc.jpg",
+      "link": "https://www.youtube.com/watch?v=Gv7IfU78vxw",
+      "time": "February 2018",
+      "title": "Angular NYC"
+    }
+  ],
+  "title": "Home"
 }
