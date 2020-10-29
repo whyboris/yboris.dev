@@ -6,7 +6,7 @@
       "title": "Golden Key Festival"
     },
     {
-      "copy": "Sole developer of Gravity Wars, a PC game built in Visual C++. Created Flash version of the game. In 2015 created an iOS version of the game (unfinished).",
+      "copy": "Sole developer of Gravity Wars, a PC game built in Visual C++. Recreated it in various languages: Flash (2010), Lua for iOS (2015), Lua with Love2D (2020).",
       "image": "../images/archive/game.png",
       "link": "/gravitywars",
       "title": "Gravity Wars"
@@ -15,7 +15,7 @@
       "copy": "Worked with numerous clients setting up, customizing, and migrating WordPress installations. Created a theme that was downloaded over 40,000 times.",
       "image": "../images/archive/wordpress.png",
       "link": "https://wordpress.org/themes/yboris/",
-      "title": "WordPres"
+      "title": "WordPress"
     },
     {
       "copy": "Created skins for various applications, including LiteStep themes; they have been downloaded thousands of times.",
