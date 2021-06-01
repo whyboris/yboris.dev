@@ -105,7 +105,21 @@
   ],
   "talks": [
     {
-      "copy": "Conference talk about machine learning architecture ",
+      "copy": "Angular & Electron - build an app for every OS",
+      "image": "../images/talks/geekle.jpg",
+      "link": "https://youtu.be/9cV_09a2Iyo?t=14172",
+      "time": "June 2021",
+      "title": "Angular Global Summit '21"
+    },
+    {
+      "copy": "2 Years with Angular & Electron: Video Hub App 2",
+      "image": "../images/talks/angularnyc2.jpg",
+      "link": "https://www.meetup.com/AngularNYC/events/268096045/",
+      "time": "February 2020",
+      "title": "Angular NYC"
+    },
+    {
+      "copy": "Conference talk about machine learning architecture",
       "image": "../images/talks/oreilly.jpg",
       "link": "https://conferences.oreilly.com/strata/strata-ca-2019/public/schedule/speaker/332583",
       "time": "March 2019",
