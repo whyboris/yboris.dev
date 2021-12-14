@@ -15,7 +15,7 @@ const Index = ({ data }) => {
       <Box>
         <h2>{gravityWarsData.title}</h2>
 
-        <div className="renamer-image">
+        <div className="renamer-image" style={{ maxWidth: 446 + 'px' }}>
           <Img
             fluid={gravityWarsData.image.childImageSharp.fluid}
             alt={gravityWarsData.title}
@@ -29,7 +29,7 @@ const Index = ({ data }) => {
 
         <p className="description">
           In 2020 I ported the old code to the Lua-based{' '}
-          <a href="https://love2d.org/">Löve2D</a>. See my code on{' '}
+          <a href="https://love2d.org/">Löve2D</a>. See the new code on{' '}
           <a href={gravityWarsData.link}>GitHub</a>
         </p>
 

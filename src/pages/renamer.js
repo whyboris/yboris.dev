@@ -18,7 +18,7 @@ const Index = ({ data }) => {
         {renamerData.title}
       </h2>
 
-      <div className="renamer-image">
+      <div className="renamer-image" style={{ maxWidth: 740 + 'px' }}>
         <Img fluid={ renamerData.image.childImageSharp.fluid} alt={renamerData.title} />
       </div>
 

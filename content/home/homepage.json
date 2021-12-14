@@ -1,15 +1,15 @@
 {
   "archive": [
     {
-      "copy": "Created a website and backend for client to handle user registration, management, and administration. Developed custom PDF generation, OCR solution, and email notification pipeline. Designed and implemented a simplified workflow for the business to manage all data with searchable DataTables, automated data backups and Excel export. ",
-      "image": "../images/archive/golden.png",
-      "title": "Golden Key Festival"
-    },
-    {
       "copy": "Sole developer of Gravity Wars, a PC game built in Visual C++. Recreated it in various languages: Flash (2010), Lua for iOS (2015), Lua with Love2D (2020).",
       "image": "../images/archive/game.png",
       "link": "/gravitywars",
       "title": "Gravity Wars"
+    },
+    {
+      "copy": "Created a website and backend for client to handle user registration, management, and administration. Developed custom PDF generation, OCR solution, and email notification pipeline. Designed and implemented a simplified workflow for the business to manage all data with searchable DataTables, automated data backups and Excel export. ",
+      "image": "../images/archive/golden.png",
+      "title": "Golden Key Festival"
     },
     {
       "copy": "Worked with numerous clients setting up, customizing, and migrating WordPress installations. Created a theme that was downloaded over 40,000 times.",
@@ -38,7 +38,21 @@
       "title": "Income-Inequality.info"
     }
   ],
+  "games": [
+    {
+      "copy": "The game that inspired me to learn to code!",
+      "image": "../images/gallery/gravity-wars.jpg",
+      "link": "/gravitywars",
+      "title": "Gravity Wars"
+    }
+  ],
   "devTools": [
+    {
+      "copy": "CLI to visualize the call graph of your TypeScript files",
+      "image": "../images/gallery/typescript-call-graph.png",
+      "link": "https://github.com/whyboris/TypeScript-Call-Graph",
+      "title": "TypeScript Call Graph"
+    },
     {
       "copy": "Let your team translate your app/website through a web interace",
       "image": "../images/gallery/i18n.jpg",
@@ -50,12 +64,6 @@
       "image": "../images/gallery/keras.jpg",
       "link": "https://github.com/whyboris/keras-hist-graph",
       "title": "Keras Hist Graph"
-    },
-    {
-      "copy": "CLI to visualize the call graph of your TypeScript files",
-      "image": "../images/gallery/typescript-call-graph.png",
-      "link": "https://github.com/whyboris/TypeScript-Call-Graph",
-      "title": "TypeScript Call Graph"
     },
     {
       "copy": "A customizable report after you run your Karma tests",

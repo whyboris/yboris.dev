@@ -29,6 +29,16 @@ const Index = ({ data }) => (
 
     <Box>
       <h2>
+        Games
+      </h2>
+      <p className="description">
+        Game development.
+      </p>
+    </Box>
+    <Gallery items={data.homeJson.games} />
+
+    <Box>
+      <h2>
         Developer Tools
       </h2>
       <p className="description">
@@ -68,6 +78,18 @@ export const query = graphql`
         }
       }
       dataviz {
+        title
+        copy
+        link
+        image {
+          childImageSharp {
+            fluid(maxHeight: 500, quality: 90) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
+      }
+      games {
         title
         copy
         link
