@@ -49,7 +49,7 @@
     "eslint-plugin-jsx-a11y": "6.5.1",
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-react": "7.29.4",
-    "favicons": "6.2.2",
+    "favicons": "7.0.2",
     "gatsby-plugin-eslint": "4.0.2",
     "lighthouse": "9.5.0",
     "mkdirp": "1.0.4",
