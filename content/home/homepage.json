@@ -38,6 +38,20 @@
       "title": "Income-Inequality.info"
     }
   ],
+  "probono": [
+    {
+      "copy": "An open access textbook about and other resources for modern Utilitarianism.",
+      "image": "../images/gallery/utilitarianism.png",
+      "link": "https://utilitarianism.net",
+      "title": "Utilitarianism.net"
+    },
+    {
+      "copy": "Multilingual website for a nonprofit that aims to provide better access to medicine for the world's poorest.",
+      "image": "../images/gallery/healthimpactfund.png",
+      "link": "https://healthimpactfund.org",
+      "title": "Health Impact Fund"
+    }
+  ],
   "games": [
     {
       "copy": "The game that inspired me to learn to code!",
@@ -67,9 +81,15 @@
     },
     {
       "copy": "A customizable report after you run your Karma tests",
-      "image": "../images/gallery/karma.jpg",
+      "image": "../images/gallery/karma-helpful-reporter.png",
       "link": "https://github.com/whyboris/karma-helpful-reporter",
       "title": "Karma Helpful Reporter"
+    },
+    {
+      "copy": "Load contents of your .yaml file as environment variables",
+      "image": "../images/gallery/YAML-env-CLI.png",
+      "link": "https://github.com/whyboris/YAML-env-CLI",
+      "title": "YAML env CLI"
     }
   ],
   "gravitywars": [
