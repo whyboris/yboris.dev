@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Img from 'gatsby-image';
+import { GatsbyImage } from "gatsby-plugin-image";
 
 const Item = ({ title, copy, image, link, time }) => (
   <>
@@ -8,10 +8,10 @@ const Item = ({ title, copy, image, link, time }) => (
       <div>
         {link ? (
           <a href={link}>
-            <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
+            <GatsbyImage image={image ? image.childImageSharp.gatsbyImageData : {}} alt={title} />
           </a>
         ) : (
-          <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
+          <GatsbyImage image={image ? image.childImageSharp.gatsbyImageData : {}} alt={title} />
         )}
       </div>
       <div>

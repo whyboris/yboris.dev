@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Img from 'gatsby-image';
+import { GatsbyImage } from "gatsby-plugin-image";
 
 const Item = ({ title, copy, image, link }) => (
   <figure>
     <a href={link}>
-      <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
+      <GatsbyImage image={image ? image.childImageSharp.gatsbyImageData : {}} alt={title} />
       <figcaption>
         <span className="item-title">{title}</span>
         <p className="item-description">{copy}</p>
