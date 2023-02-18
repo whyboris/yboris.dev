@@ -39,6 +39,16 @@ const Index = ({ data }) => (
 
     <Box>
       <h2>
+        Pro bono
+      </h2>
+      <p className="description">
+        Volunteer work to help a nonprofit or cause.
+      </p>
+    </Box>
+    <Gallery items={data.homeJson.probono} />
+
+    <Box>
+      <h2>
         Developer Tools
       </h2>
       <p className="description">
@@ -90,6 +100,18 @@ export const query = graphql`
         }
       }
       games {
+        title
+        copy
+        link
+        image {
+          childImageSharp {
+            fluid(maxHeight: 500, quality: 90) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
+      }
+      probono {
         title
         copy
         link
