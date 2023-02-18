@@ -1,5 +1,5 @@
 import React from 'react';
-import Img from 'gatsby-image';
+import { GatsbyImage } from "gatsby-plugin-image";
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 
@@ -19,7 +19,7 @@ const Index = ({ data }) => {
       </h2>
 
       <div className="renamer-image" style={{ maxWidth: 740 + 'px' }}>
-        <Img fluid={ renamerData.image.childImageSharp.fluid} alt={renamerData.title} />
+        <GatsbyImage image={renamerData.image.childImageSharp.gatsbyImageData} alt={renamerData.title} />
       </div>
 
       <p className="description" style={{ lineHeight: 30 + 'px' }}>
@@ -85,9 +85,7 @@ export const query = graphql`
         }
         image {
           childImageSharp {
-            fluid(maxHeight: 500, quality: 90) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
+            gatsbyImageData(layout: FIXED)
           }
         }
       }

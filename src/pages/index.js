@@ -81,9 +81,7 @@ export const query = graphql`
         link
         image {
           childImageSharp {
-            fluid(maxHeight: 500, quality: 90) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
+            gatsbyImageData(layout: FIXED)
           }
         }
       }
@@ -93,9 +91,7 @@ export const query = graphql`
         link
         image {
           childImageSharp {
-            fluid(maxHeight: 500, quality: 90) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
+            gatsbyImageData(layout: FIXED)
           }
         }
       }
@@ -105,9 +101,7 @@ export const query = graphql`
         link
         image {
           childImageSharp {
-            fluid(maxHeight: 500, quality: 90) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
+            gatsbyImageData(layout: FIXED)
           }
         }
       }
@@ -117,9 +111,7 @@ export const query = graphql`
         link
         image {
           childImageSharp {
-            fluid(maxHeight: 500, quality: 90) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
+            gatsbyImageData(layout: FIXED)
           }
         }
       }
@@ -129,9 +121,7 @@ export const query = graphql`
         link
         image {
           childImageSharp {
-            fluid(maxHeight: 500, quality: 90) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
+            gatsbyImageData(layout: FIXED)
           }
         }
       }
