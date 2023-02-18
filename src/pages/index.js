@@ -81,7 +81,7 @@ export const query = graphql`
         link
         image {
           childImageSharp {
-            gatsbyImageData(layout: FIXED)
+            gatsbyImageData(layout: CONSTRAINED)
           }
         }
       }
@@ -91,7 +91,7 @@ export const query = graphql`
         link
         image {
           childImageSharp {
-            gatsbyImageData(layout: FIXED)
+            gatsbyImageData(layout: CONSTRAINED)
           }
         }
       }
@@ -101,7 +101,7 @@ export const query = graphql`
         link
         image {
           childImageSharp {
-            gatsbyImageData(layout: FIXED)
+            gatsbyImageData(layout: CONSTRAINED)
           }
         }
       }
@@ -111,7 +111,7 @@ export const query = graphql`
         link
         image {
           childImageSharp {
-            gatsbyImageData(layout: FIXED)
+            gatsbyImageData(layout: CONSTRAINED)
           }
         }
       }
@@ -121,7 +121,7 @@ export const query = graphql`
         link
         image {
           childImageSharp {
-            gatsbyImageData(layout: FIXED)
+            gatsbyImageData(layout: CONSTRAINED)
           }
         }
       }
